@@ -9,8 +9,8 @@ app.use(express.json());
 app.use(cors());
 app.use(auth)
 
-app.listen(3000, () => {
-  console.log('Server is listening on port 3000');
+app.listen(8080, () => {
+  console.log('Server is listening on port 8080');
 });
 
 (async () => {
